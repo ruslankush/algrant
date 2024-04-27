@@ -1,0 +1,244 @@
+.stage {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.stage-box {
+  position: relative;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1880px;
+  margin: 0 auto;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.stage-box h2 {
+  text-align: center;
+  color: #1F59B0;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 43px;
+}
+
+.stage-block {
+  padding-top: 3.125rem;
+}
+
+.stage-timeline {
+  max-width: 1430px;
+  margin: 0 auto;
+}
+
+.stage-timeline .timeline {
+  position: relative;
+  width: 100%;
+  margin: 1.875rem auto 0;
+  padding-right: 0.625rem;
+  padding-left: 1.875rem;
+}
+
+.stage-timeline .timeline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 78%;
+  width: 2px;
+  left: 1.5rem;
+  top: 13%;
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stage-timeline .timeline::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.stage-timeline .timeline-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.stage-timeline .timeline-item::after, .stage-timeline .timeline-item::before {
+  display: block;
+  clear: both;
+  width: 100%;
+  content: '';
+}
+
+.stage-timeline .timeline-icon {
+  background: #1F235C;
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+  top: 60%;
+  left: -5px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #F4F5F6;
+  font-weight: 800;
+  font-size: 1.625rem;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+
+.stage-timeline .timeline-content {
+  padding-left: 1.875rem;
+}
+
+.stage-timeline .timeline-content .icon {
+  margin-bottom: 0.9375rem;
+  width: 80px;
+}
+
+.stage-timeline .timeline-content .icon img {
+  margin: 0 auto;
+}
+
+.stage-timeline .timeline-content .ttl {
+  color: #1F235C;
+  font-weight: 800;
+  font-size: 1.0625rem;
+  line-height: 27px;
+  margin-bottom: 0.9375rem;
+}
+
+.stage-timeline .timeline-content p {
+  font-weight: 400;
+  color: #1F235C;
+  font-size: 1rem;
+  margin: 0 0 0.625rem;
+}
+
+.stage-timeline .timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+.stage-timeline .timeline-content p a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #1F59B0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.stage-timeline .timeline-content p span {
+  display: block;
+}
+
+@media (min-width: 375px) {
+  .stage-timeline .timeline-content {
+    padding-left: 3.125rem;
+  }
+  .stage-timeline .timeline-content .ttl {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .stage {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .stage-box h2 {
+    font-size: 3rem;
+    line-height: 65px;
+  }
+  .stage-timeline .timeline {
+    padding-left: 0.625rem;
+  }
+  .stage-timeline .timeline::before {
+    left: 50%;
+  }
+  .stage-timeline .timeline-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    left: 50%;
+    font-size: 2.25rem;
+  }
+  .stage-timeline .timeline-content {
+    width: 45%;
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-left: 0;
+  }
+  .stage-timeline .timeline-content .icon {
+    margin-right: 3.125rem;
+    width: auto;
+  }
+  .stage-timeline .timeline-content.right {
+    float: right;
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .stage-timeline .timeline-content.right .icon {
+    margin-left: 3.125rem;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1366px) {
+  .stage-timeline .timeline-content {
+    padding: 20px;
+  }
+  .stage-timeline .timeline-content .icon {
+    margin-bottom: 1.25rem;
+  }
+  .stage-timeline .timeline-content .ttl {
+    margin-bottom: 1.25rem;
+    font-size: 2.25rem;
+    line-height: 49px;
+  }
+  .stage-box {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+  .stage-block {
+    padding-top: 4.375rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .stage-timeline .timeline-content p {
+    font-size: 1.4375rem;
+  }
+  .stage-timeline .timeline-content p a {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=stage.css.map */

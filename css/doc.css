@@ -1,0 +1,107 @@
+.doc {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.doc h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 43px;
+}
+
+.doc-block {
+  padding-top: 3.125rem;
+}
+
+.doc-link {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #7DD5F785;
+  position: relative;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.doc-link span:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 78%;
+          flex: 0 0 78%;
+  max-width: 78%;
+}
+
+.doc-link b {
+  font-family: 'PT Sans', sans-serif;
+  display: none;
+}
+
+.doc-link .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.doc-link:focus {
+  border: 2px solid #7DD5F785;
+}
+
+@media (min-width: 768px) {
+  .doc {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .doc-link span:first-child {
+    -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+            flex: inherit;
+    max-width: inherit;
+  }
+}
+
+@media (min-width: 860px) {
+  .doc h2 {
+    font-size: 3rem;
+    line-height: 65px;
+  }
+  .doc-block {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .doc-link {
+    padding-left: 5.625rem;
+    padding-right: 5.625rem;
+    font-size: 1.625rem;
+    line-height: 36px;
+  }
+  .doc-link b {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .doc-link .icon {
+    margin-left: 1.5rem;
+  }
+}
+/*# sourceMappingURL=doc.css.map */

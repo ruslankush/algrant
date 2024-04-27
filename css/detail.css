@@ -1,0 +1,72 @@
+.detail {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.detail-box {
+  max-width: 1430px;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  padding: 3.75rem 0;
+}
+
+.detail-box h2 {
+  color: #1F59B0;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.detail-box .desc {
+  color: #000;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1.5rem auto 0;
+  line-height: 20px;
+  max-width: 758px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.detail-block {
+  padding-top: 1.875rem;
+}
+
+@media (min-width: 768px) {
+  .detail {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 860px) {
+  .detail-box h2 {
+    font-size: 2.5rem;
+    line-height: 54px;
+  }
+  .detail-box .desc {
+    font-size: 1.75rem;
+    line-height: 36px;
+    margin-top: 2.5rem;
+  }
+  .detail-block {
+    padding-top: 3.125rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .detail-box {
+    padding: 6.25rem 6.25rem;
+  }
+}
+/*# sourceMappingURL=detail.css.map */

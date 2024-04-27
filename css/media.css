@@ -1,0 +1,45 @@
+@media (min-width: 576px) {
+  .form-detail_btn .page-btn {
+    min-width: 416px;
+  }
+}
+
+@media (min-width: 860px) {
+  .form-gr input {
+    font-size: 1.5rem;
+    height: 5rem;
+  }
+  .form-gr input::-webkit-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .form-gr input:-ms-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .form-gr input::-ms-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .form-gr input::placeholder {
+    font-size: 1.5rem;
+  }
+  .form-detail_gr {
+    margin-bottom: 1.875rem;
+  }
+  .form-detail_gr label {
+    font-size: 1.75rem;
+  }
+  .form-detail_btn {
+    padding-top: 4.375rem;
+  }
+  .form-detail_btn .page-btn {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-politic {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+  .form-politic a {
+    font-size: 1.25rem;
+  }
+}
+/*# sourceMappingURL=media.css.map */

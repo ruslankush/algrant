@@ -1,0 +1,112 @@
+.grant-program {
+  position: relative;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.grant-program .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.grant-program .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.grant-program_block {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+  position: relative;
+}
+
+.grant-program h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 27px;
+}
+
+.grant-program .info {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 30px;
+  max-width: 799px;
+  margin: 2.5rem auto 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.grant-program .info p {
+  margin: 0 0 1.5rem;
+}
+
+.grant-program .info p:last-child {
+  margin-bottom: 0;
+}
+
+.grant-program .desc {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 23px;
+  max-width: 589px;
+  margin: 1.75rem auto;
+}
+
+.grant-program .page-btn {
+  padding: 1.25rem 1.25rem;
+  min-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .grant-program .page-btn {
+    padding: 1.5rem 1.25rem;
+    min-width: 416px;
+  }
+}
+
+@media (min-width: 768px) {
+  .grant-program {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .grant-program_block {
+    padding-top: 8.75rem;
+    padding-bottom: 8.125rem;
+    position: relative;
+  }
+}
+
+@media (min-width: 860px) {
+  .grant-program h2 {
+    font-size: 3rem;
+    line-height: 54px;
+  }
+  .grant-program .info {
+    font-size: 2.5rem;
+    line-height: 51px;
+  }
+  .grant-program .desc {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  .grant-program .image {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+}
+/*# sourceMappingURL=grant-program.css.map */

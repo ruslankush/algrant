@@ -1,0 +1,135 @@
+.nomination {
+  padding-top: 3.125rem;
+  text-align: center;
+  padding-bottom: 3.125rem;
+}
+
+.nomination h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.nomination-block {
+  padding-top: 2.5rem;
+}
+
+.nomination-block .d-flex {
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  row-gap: 3.125rem;
+}
+
+.nomination-block .bx {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.nomination-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.nomination-cart .icon {
+  margin-bottom: 1.0625rem;
+  display: inline-block;
+  width: 80px;
+}
+
+.nomination-cart .icon img {
+  margin: 0 auto;
+}
+
+.nomination-cart_bx {
+  margin-bottom: 0.9375rem;
+}
+
+.nomination-cart .name {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 27px;
+}
+
+.nomination-cart .price {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 35px;
+  margin-bottom: 0.9375rem;
+}
+
+.nomination-cart .desc {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .nomination {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 860px) {
+  .nomination h2 {
+    font-size: 3rem;
+    line-height: 65px;
+  }
+  .nomination-block {
+    padding-top: 3.75rem;
+  }
+  .nomination-block .bx {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .nomination-cart .name {
+    min-height: 55px;
+  }
+  .nomination-cart .name span {
+    display: block;
+  }
+}
+
+@media (min-width: 1366px) {
+  .nomination-cart .name {
+    font-size: 1.75rem;
+    line-height: 38px;
+    min-height: 76px;
+  }
+  .nomination-cart .icon {
+    width: auto;
+    margin-bottom: 1.25rem;
+  }
+  .nomination-cart .price {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .nomination-cart .desc {
+    font-size: 1.5rem;
+    line-height: 31px;
+  }
+  .nomination-cart_bx {
+    margin-bottom: 1.875rem;
+  }
+}
+/*# sourceMappingURL=nomination.css.map */
