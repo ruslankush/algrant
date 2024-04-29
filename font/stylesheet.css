@@ -1,0 +1,49 @@
+
+
+@font-face {
+    font-family: 'BorjomiLightC';
+    src: url('BorjomiLightC.eot');
+    src: local('BorjomiLightC'),
+        url('BorjomiLightC.eot?#iefix') format('embedded-opentype'),
+        url('BorjomiLightC.woff2') format('woff2'),
+        url('BorjomiLightC.woff') format('woff'),
+        url('BorjomiLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'BorjomiC';
+    src: url('BorjomiC-Bold.eot');
+    src: local('BorjomiC Bold'), local('BorjomiC-Bold'),
+        url('BorjomiC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BorjomiC-Bold.woff2') format('woff2'),
+        url('BorjomiC-Bold.woff') format('woff'),
+        url('BorjomiC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BorjomiC';
+    src: url('BorjomiC.eot');
+    src: local('BorjomiC'),
+        url('BorjomiC.eot?#iefix') format('embedded-opentype'),
+        url('BorjomiC.woff2') format('woff2'),
+        url('BorjomiC.woff') format('woff'),
+        url('BorjomiC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

@@ -234,6 +234,33 @@ a:focus {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'BorjomiLightC';
+  src: url("../font/BorjomiLightC.eot");
+  src: local("BorjomiLightC"), url("../font/BorjomiLightC.eot?#iefix") format("embedded-opentype"), url("../font/BorjomiLightC.woff2") format("woff2"), url("../font/BorjomiLightC.woff") format("woff"), url("../font/BorjomiLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BorjomiC';
+  src: url("../font/BorjomiC-Bold.eot");
+  src: local("BorjomiC Bold"), local("BorjomiC-Bold"), url("../font/BorjomiC-Bold.eot?#iefix") format("embedded-opentype"), url("../font/BorjomiC-Bold.woff2") format("woff2"), url("../font/BorjomiC-Bold.woff") format("woff"), url("../font/BorjomiC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BorjomiC';
+  src: url("../font/BorjomiC.eot");
+  src: local("BorjomiC"), url("../font/BorjomiC.eot?#iefix") format("embedded-opentype"), url("../font/BorjomiC.woff2") format("woff2"), url("../font/BorjomiC.woff") format("woff"), url("../font/BorjomiC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
   height: 100%;
 }

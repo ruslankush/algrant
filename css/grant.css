@@ -87,10 +87,11 @@
 
 .grant-box h1 {
   color: #1F235C;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.625rem;
   line-height: 30px;
   text-transform: uppercase;
+  font-family: 'BorjomiC', sans-serif;
 }
 
 .grant-box .desc {
@@ -233,7 +234,9 @@
     -o-border-radius: 3.75rem;
   }
   .grant-bottom .logo {
-    max-width: auto;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
     margin-bottom: 0;
   }
   .grant-bottom_box .bx {
